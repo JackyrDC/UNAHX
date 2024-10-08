@@ -28,8 +28,8 @@ export default async function Home() {
   })) ?? [];
 
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-4'>
-      <section className="max-w-[600px] mx-auto border-l border-r border-white/80 min-h-screen">
+    <main className='flex min-h-screen flex-col items-center justify-between p-4 bg-black'>
+      <section className="max-w-[1200px] mx-auto border-l border-r border-b border-white/30 min-h-screen">
         <ComposePost 
           userAvatarUrl={session?.user?.user_metadata?.avatar_url} 
           userName={session?.user?.user_metadata?.user_name} 
