@@ -1,5 +1,4 @@
 import { AuthButtonServer } from "../components/auth-button-server";
-import {Button} from '@nextui-org/button'; 
 
 
 export default function Login (){
